@@ -222,7 +222,7 @@ impl DrawingBackend for CanvasBackend {
             .arc(
                 f64::from(center.0),
                 f64::from(center.1),
-                f64::from(radius),
+                f64::from(200.0),
                 0.0,
                 std::f64::consts::PI * 2.0,
             )
